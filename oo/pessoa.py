@@ -16,3 +16,7 @@ if __name__ == '__main__':
     print(spurio.nome)
     for filho in spurio.filhos:
         print(filho.nome)
+    spurio.sobrenome = "Antonio"
+    del spurio.filhos
+    print(spurio.__dict__)
+    print(luiz.__dict__)
